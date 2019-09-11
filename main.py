@@ -12,8 +12,8 @@ from dataset_process import dataprocess
 import moxing as mx
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--data_url', default='s3://my-obs-cn-north1/aifood/', help='dir of dataset')  # 数据集存储路径
-parser.add_argument('--train_url', default='s3://my-obs-cn-north1/aifood/model', help='dir of output')  # 模型输出路径
+parser.add_argument('--data_url', default='obs', help='dir of dataset')  # 数据集存储路径
+parser.add_argument('--train_url', default='obs', help='dir of output')  # 模型输出路径
 parser.add_argument('--homepath', type=str, default=os.environ['HOME'])
 parser.add_argument('--train_label_txt', type=str, default='./train_label.txt')
 parser.add_argument('--test_label_txt', type=str, default='./test_label.txt')

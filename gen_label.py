@@ -3,7 +3,7 @@ import os
 import random
 
 
-def gen_label(input_dir='D:\\资料\\培训\\aifood\\aifood\\aifood\\images',
+def gen_label(input_dir='.\\aifood\\aifood\\images',
               small_label_txt='.\\small_labels_25c.txt'):
     cls_large = 0
     cls_small = 0
